@@ -14,11 +14,10 @@ public class Houseview extends JPanel
   }
   public void paintComponent(Graphics g)
   { g.setColor(Color.black);
-  //Houses a = new House();
+ 
   testHouse a= new testHouse();
   a.asllani();
   
-    //g.drawRect(x-100,y-100,x,y);
      g.drawString(a.l+"",20,20);
      g.drawString(a.l+"",275,110);
      g.drawString(a.z,50,5);
@@ -37,9 +36,4 @@ public class Houseview extends JPanel
     g.drawString(a.Humbja,0,110);
       }
   
-      public static void main(String[] args)
-      {new Houseview(200,200);
-      
-     
-      }
       }
