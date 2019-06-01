@@ -4,20 +4,20 @@ public class testHouse
 {public int width;  
   public int height; 
   public int l;
-  public String a="";
-  public String b="";
-    public String c="";
-    public String m="";
-    public String z="";
-    public String f="";
-    public String ha="";
-      public String hb="";
-      public String Para="";
+  public String a=""; //ndryshorja a nderton nje pjese te murit te shtepise
+  public String b=""; //ndryshorja a nderton nje pjese te murit te shtepise
+    public String c=""; //ndryshorja c nderton bazen e poshtme te shtepise
+    public String m=""; //ndryshorja m nderton bazen e siperme te shtepise
+    public String z=""; //ndryshorja z nderton nje pjese te kulmit te shtepise
+    public String f=""; //ndryshorja f nderton nje pjese te kulmit te shtepise
+    public String ha=""; //ndryshorja ha nderton deren e shtepise
+      public String hb=""; //ndryshorja hb nderon dritaren e shtepise
+      public String Para=""; 
       public String Dyta="";
       public String Treta="";
       public String Katerta="";
      public String Humbja="";
-public  void asllani()
+public  void asllani() //Modelon ndertimin e shtepise varsisht prej renies se zarit
 {Die zari= new Die();
 
 l=zari.throw1();
